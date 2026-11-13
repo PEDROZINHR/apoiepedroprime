@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050b19">
+  <meta name="description" content="Ajude a tirar Pedro Prime do papel. Apoie uma produção independente.">
+
+  <title>Pedro Prime | Apoie o Projeto</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="stars"></div>
+
+  <!-- CABEÇALHO -->
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">P<span>⚡</span></span>
+      <span>PPO <b>ESTÚDIOS</b></span>
+    </a>
+
+    <a class="top-link" href="#apoie">
+      APOIAR O PROJETO ↗
+    </a>
+  </header>
+
+  <main>
+
+    <!-- INÍCIO -->
+    <section class="hero" id="inicio">
+
+      <div class="hero-glow"></div>
+
+      <div class="eyebrow">
+        ⚡ UMA PRODUÇÃO INDEPENDENTE
+      </div>
+
+      <h1>
+        PEDRO<br>
+        <span>PRIME</span>
+      </h1>
+
+      <div class="lightning-line">
+        <i></i>
+        <b>⚡</b>
+        <i></i>
+      </div>
+
+      <p class="hero-copy">
+        Toda grande história começa com uma ideia.<br>
+        Ajude a transformar essa ideia em realidade.
+      </p>
+
+      <a class="primary-button" href="#apoie">
+        FAÇA PARTE DESSA HISTÓRIA ↓
+      </a>
+
+      <div class="hero-note">
+        UM PROJETO PPO ESTÚDIOS
+      </div>
+
+    </section>
+
+    <!-- SOBRE O PROJETO -->
+    <section class="story section-wrap">
+
+      <div class="section-kicker">
+        POR TRÁS DAS CÂMERAS
+      </div>
+
+      <h2>
+        Uma aventura está<br>
+        <span>começando.</span>
+      </h2>
+
+      <p>
+        <strong>Pedro Prime</strong> é um projeto independente
+        criado com imaginação, dedicação e vontade de contar
+        uma grande história. Sua contribuição ajuda a dar
+        os próximos passos na produção.
+      </p>
+
+      <div class="use-grid">
+
+        <article class="use-card">
+          <span>✦</span>
+          <h3>FIGURINO</h3>
+          <p>Materiais e detalhes dos personagens.</p>
+        </article>
+
+        <article class="use-card">
+          <span>⌁</span>
+          <h3>PRODUÇÃO</h3>
+          <p>Objetos de cena e cenários.</p>
+        </article>
+
+        <article class="use-card">
+          <span>▶</span>
+          <h3>FILMAGEM</h3>
+          <p>Recursos para gravar as cenas.</p>
+        </article>
+
+        <article class="use-card">
+          <span>✧</span>
+          <h3>PÓS-PRODUÇÃO</h3>
+          <p>Edição, som e efeitos visuais.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- APOIO -->
+    <section class="donate section-wrap" id="apoie">
+
+      <div class="section-kicker">
+        VOCÊ PODE FAZER PARTE
+      </div>
+
+      <h2>
+        Ajude a criar<br>
+        <span>Pedro Prime.</span>
+      </h2>
+
+      <p class="donate-intro">
+        Qualquer valor é bem-vindo.
+        Escaneie o QR Code ou copie a chave Pix.
+      </p>
+
+      <div class="pix-panel">
+
+        <!-- QR CODE -->
+        <div class="qr-area">
+
+          <div class="qr-frame">
+
+            <img
+              src="./qr-pix.png"
+              alt="QR Code Pix para apoiar Pedro Prime"
+              id="qr-image"
+              onerror="this.style.display='none'; document.getElementById('qr-error').style.display='block';"
+            >
+
+            <div
+              id="qr-error"
+              style="display:none; color:#222; text-align:center; font-size:13px;"
+            >
+              QR Code não encontrado.<br>
+              Confira o arquivo qr-pix.png
+            </div>
+
+          </div>
+
+          <span class="qr-caption">
+            APONTE A CÂMERA DO CELULAR
+          </span>
+
+        </div>
+
+        <!-- PIX -->
+        <div class="pix-details">
+
+          <div class="pix-label">
+            CHAVE PIX
+          </div>
+
+          <div class="pix-key" id="pix-key">
+            pedrolucas.fva@gmail.com
+          </div>
+
+          <button
+            class="copy-button"
+            id="copy-button"
+            type="button"
+          >
+            COPIAR CHAVE PIX ▣
+          </button>
+
+          <p class="pix-hint" id="copy-status">
+            Confira o nome do destinatário no aplicativo
+            do banco antes de confirmar o Pix.
+          </p>
+
+          <div class="secure-note">
+            ✦ Apoio voluntário para uma produção independente.
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="thanks">
+        Obrigado por acreditar nessa ideia. ⚡
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer>
+
+    <div class="footer-brand">
+      PEDRO <span>PRIME</span>
+    </div>
+
+    <p>
+      Uma criação independente • PPO Estúdios
+    </p>
+
+    <small>
+      Contribuições voluntárias destinadas ao desenvolvimento
+      do projeto. Não há recompensa automática em troca do apoio.
+    </small>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
